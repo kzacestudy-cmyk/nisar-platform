@@ -1,0 +1,13 @@
+# CPU-only PyTorch: the default Linux wheel pulls ~2 GB of CUDA libraries
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit>=1.30
+torch
+numpy
+scipy
+matplotlib
+plotly
+pydeck
+scikit-image
+scikit-learn
+Pillow
+pandas
